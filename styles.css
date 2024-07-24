@@ -1,0 +1,166 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3d2a9;
+    color: #333;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 219, 99);
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.join-now {
+    background-color: #5a3e36;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.emergency-contacts {
+    background-color: rgb(255, 219, 99);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.emergency-contacts h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.emergency-contacts p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.call-button {
+    background-color: #f40;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.protection {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f3d2a9;
+}
+
+.protection .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.protection .text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.protection .text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.protection .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protection .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.foot{
+    font-family: Arial, sans-serif;
+    background-color: #f3d2a9;
+    margin: 0;
+    padding: 0;
+}
+
+.our-story-container {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 219, 99);
+    margin: 0;
+    padding: 0; 
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.our-story-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.our-story-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.our-story-container footer p {
+    font-size: 0.9em;
+    color: #5a4e48;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    margin-top: 20px;
+}
